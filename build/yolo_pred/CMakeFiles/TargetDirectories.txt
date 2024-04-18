@@ -1,0 +1,9 @@
+/home/administrator/ros2arm_ws/build/yolo_pred/CMakeFiles/uninstall.dir
+/home/administrator/ros2arm_ws/build/yolo_pred/CMakeFiles/yolo_pred_uninstall.dir
+/home/administrator/ros2arm_ws/build/yolo_pred/CMakeFiles/test.dir
+/home/administrator/ros2arm_ws/build/yolo_pred/CMakeFiles/edit_cache.dir
+/home/administrator/ros2arm_ws/build/yolo_pred/CMakeFiles/rebuild_cache.dir
+/home/administrator/ros2arm_ws/build/yolo_pred/CMakeFiles/list_install_components.dir
+/home/administrator/ros2arm_ws/build/yolo_pred/CMakeFiles/install.dir
+/home/administrator/ros2arm_ws/build/yolo_pred/CMakeFiles/install/local.dir
+/home/administrator/ros2arm_ws/build/yolo_pred/CMakeFiles/install/strip.dir

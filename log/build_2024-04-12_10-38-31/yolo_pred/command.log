@@ -1,0 +1,1 @@
+Invoking command in '/home/administrator/ros2arm_ws/build/yolo_pred': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2arm_ws/build/yolo_pred -- -j20 -l20

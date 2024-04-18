@@ -1,0 +1,28 @@
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/administrator/ros2arm_ws/build/ros2_arduino_bridge
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/administrator/ros2arm_ws/install/ros2_arduino_bridge/lib/ros2_arduino_bridge/arduino_arm_connect.py
+-- Symlinking: /home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ament_index/resource_index/package_run_dependencies/ros2_arduino_bridge
+-- Symlinking: /home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ament_index/resource_index/parent_prefix_path/ros2_arduino_bridge
+-- Symlinking: /home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/environment/ament_prefix_path.sh
+-- Symlinking: /home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/environment/ament_prefix_path.dsv
+-- Symlinking: /home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/environment/path.sh
+-- Symlinking: /home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/environment/path.dsv
+-- Symlinking: /home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/local_setup.bash
+-- Symlinking: /home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/local_setup.sh
+-- Symlinking: /home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/local_setup.zsh
+-- Symlinking: /home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/local_setup.dsv
+-- Symlinking: /home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/package.dsv
+-- Symlinking: /home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ament_index/resource_index/packages/ros2_arduino_bridge
+-- Symlinking: /home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/cmake/ros2_arduino_bridgeConfig.cmake
+-- Symlinking: /home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/cmake/ros2_arduino_bridgeConfig-version.cmake
+-- Symlinking: /home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/package.xml

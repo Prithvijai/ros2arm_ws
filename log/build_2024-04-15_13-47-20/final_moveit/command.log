@@ -1,0 +1,4 @@
+Invoking command in '/home/administrator/ros2arm_ws/build/final_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2arm_ws/build/final_moveit -- -j20 -l20
+Invoked command in '/home/administrator/ros2arm_ws/build/final_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2arm_ws/build/final_moveit -- -j20 -l20
+Invoking command in '/home/administrator/ros2arm_ws/build/final_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2arm_ws/build/final_moveit
+Invoked command in '/home/administrator/ros2arm_ws/build/final_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2arm_ws/build/final_moveit

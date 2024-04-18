@@ -1,0 +1,4 @@
+Invoking command in '/home/administrator/ros2arm_ws/build/yolo_pred': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2arm_ws/build/yolo_pred -- -j20 -l20
+Invoked command in '/home/administrator/ros2arm_ws/build/yolo_pred' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2arm_ws/build/yolo_pred -- -j20 -l20
+Invoking command in '/home/administrator/ros2arm_ws/build/yolo_pred': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2arm_ws/build/yolo_pred
+Invoked command in '/home/administrator/ros2arm_ws/build/yolo_pred' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2arm_ws/build/yolo_pred

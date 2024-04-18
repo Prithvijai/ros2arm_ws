@@ -1,0 +1,1 @@
+/home/administrator/ros2arm_ws/src/cycloidal_arm_moveit_config/launch/warehouse_db.launch.py

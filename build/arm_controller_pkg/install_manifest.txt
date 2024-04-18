@@ -1,0 +1,16 @@
+/home/administrator/ros2arm_ws/install/arm_controller_pkg/lib/arm_controller_pkg/final_task.py
+/home/administrator/ros2arm_ws/install/arm_controller_pkg/share/ament_index/resource_index/package_run_dependencies/arm_controller_pkg
+/home/administrator/ros2arm_ws/install/arm_controller_pkg/share/ament_index/resource_index/parent_prefix_path/arm_controller_pkg
+/home/administrator/ros2arm_ws/install/arm_controller_pkg/share/arm_controller_pkg/environment/ament_prefix_path.sh
+/home/administrator/ros2arm_ws/install/arm_controller_pkg/share/arm_controller_pkg/environment/ament_prefix_path.dsv
+/home/administrator/ros2arm_ws/install/arm_controller_pkg/share/arm_controller_pkg/environment/path.sh
+/home/administrator/ros2arm_ws/install/arm_controller_pkg/share/arm_controller_pkg/environment/path.dsv
+/home/administrator/ros2arm_ws/install/arm_controller_pkg/share/arm_controller_pkg/local_setup.bash
+/home/administrator/ros2arm_ws/install/arm_controller_pkg/share/arm_controller_pkg/local_setup.sh
+/home/administrator/ros2arm_ws/install/arm_controller_pkg/share/arm_controller_pkg/local_setup.zsh
+/home/administrator/ros2arm_ws/install/arm_controller_pkg/share/arm_controller_pkg/local_setup.dsv
+/home/administrator/ros2arm_ws/install/arm_controller_pkg/share/arm_controller_pkg/package.dsv
+/home/administrator/ros2arm_ws/install/arm_controller_pkg/share/ament_index/resource_index/packages/arm_controller_pkg
+/home/administrator/ros2arm_ws/install/arm_controller_pkg/share/arm_controller_pkg/cmake/arm_controller_pkgConfig.cmake
+/home/administrator/ros2arm_ws/install/arm_controller_pkg/share/arm_controller_pkg/cmake/arm_controller_pkgConfig-version.cmake
+/home/administrator/ros2arm_ws/install/arm_controller_pkg/share/arm_controller_pkg/package.xml

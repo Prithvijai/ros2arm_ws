@@ -1,0 +1,1 @@
+/home/administrator/ros2arm_ws/build/yolo_pred/ament_cmake_core/yolo_predConfig.cmake

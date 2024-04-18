@@ -1,0 +1,1 @@
+/home/administrator/ros2arm_ws/src/ros2_arduino_bridge/python_node/arduino_arm_connect.py

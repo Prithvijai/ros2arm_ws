@@ -1,0 +1,21 @@
+[0.018s] Invoking command in '/home/administrator/ros2arm_ws/build/yolo_pred': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2arm_ws/build/yolo_pred -- -j20 -l20
+[0.038s] Invoked command in '/home/administrator/ros2arm_ws/build/yolo_pred' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2arm_ws/build/yolo_pred -- -j20 -l20
+[0.060s] Invoking command in '/home/administrator/ros2arm_ws/build/yolo_pred': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2arm_ws/build/yolo_pred
+[0.062s] -- Install configuration: ""
+[0.063s] -- Execute custom install script
+[0.063s] -- Up-to-date symlink: /home/administrator/ros2arm_ws/install/yolo_pred/share/ament_index/resource_index/package_run_dependencies/yolo_pred
+[0.063s] -- Up-to-date symlink: /home/administrator/ros2arm_ws/install/yolo_pred/share/ament_index/resource_index/parent_prefix_path/yolo_pred
+[0.063s] -- Up-to-date symlink: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/environment/ament_prefix_path.sh
+[0.063s] -- Up-to-date symlink: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/environment/ament_prefix_path.dsv
+[0.063s] -- Up-to-date symlink: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/environment/path.sh
+[0.063s] -- Up-to-date symlink: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/environment/path.dsv
+[0.063s] -- Up-to-date symlink: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/local_setup.bash
+[0.063s] -- Up-to-date symlink: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/local_setup.sh
+[0.063s] -- Up-to-date symlink: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/local_setup.zsh
+[0.063s] -- Up-to-date symlink: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/local_setup.dsv
+[0.063s] -- Symlinking: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/package.dsv
+[0.067s] -- Up-to-date symlink: /home/administrator/ros2arm_ws/install/yolo_pred/share/ament_index/resource_index/packages/yolo_pred
+[0.067s] -- Up-to-date symlink: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/cmake/yolo_predConfig.cmake
+[0.067s] -- Up-to-date symlink: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/cmake/yolo_predConfig-version.cmake
+[0.067s] -- Up-to-date symlink: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/package.xml
+[0.085s] Invoked command in '/home/administrator/ros2arm_ws/build/yolo_pred' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2arm_ws/build/yolo_pred

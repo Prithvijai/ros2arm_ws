@@ -1,0 +1,23 @@
+-- Install configuration: ""
+-- Installing: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_fabric
+-- Installing: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_fabric/data2.yaml
+-- Installing: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_fabric/13.jpg
+-- Installing: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_fabric/data.yaml
+-- Installing: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_fabric/weights
+-- Installing: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_fabric/weights/best.pt
+-- Installing: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_fabric/weights/best2.onnx
+-- Installing: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_fabric/weights/last.pt
+-- Installing: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_fabric/weights/best.onnx
+-- Installing: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_Shirt
+-- Installing: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_Shirt/22.jpeg
+-- Installing: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_Shirt/camera.rviz
+-- Installing: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_Shirt/76.jpeg
+-- Installing: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_Shirt/data3.yaml
+-- Installing: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_Shirt/weights
+-- Installing: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_Shirt/weights/best.pt
+-- Installing: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_Shirt/weights/best2.onnx
+-- Installing: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_Shirt/weights/last.pt
+-- Installing: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_Shirt/weights/best.onnx
+-- Installing: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/config
+-- Installing: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/config/camera_view.rviz
+-- Installing: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/lib/yolo_pred_nodes/yolo_fabric_pred.py

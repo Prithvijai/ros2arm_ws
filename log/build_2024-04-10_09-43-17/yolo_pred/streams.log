@@ -1,0 +1,106 @@
+[0.006s] Invoking command in '/home/administrator/ros2arm_ws/build/yolo_pred': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/administrator/ros2arm_ws/src/yolo_pred -DCMAKE_INSTALL_PREFIX=/home/administrator/ros2arm_ws/install/yolo_pred
+[0.069s] -- The C compiler identification is GNU 11.4.0
+[0.099s] -- The CXX compiler identification is GNU 11.4.0
+[0.102s] -- Detecting C compiler ABI info
+[0.139s] -- Detecting C compiler ABI info - done
+[0.144s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.144s] -- Detecting C compile features
+[0.144s] -- Detecting C compile features - done
+[0.146s] -- Detecting CXX compiler ABI info
+[0.188s] -- Detecting CXX compiler ABI info - done
+[0.192s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.192s] -- Detecting CXX compile features
+[0.192s] -- Detecting CXX compile features - done
+[0.194s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.275s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.323s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.413s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.414s] -- Added test 'lint_cmake' to check CMake code style
+[0.414s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.415s] -- Added test 'xmllint' to check XML markup files
+[0.416s] -- Configuring done
+[0.416s] -- Generating done
+[0.417s] -- Build files have been written to: /home/administrator/ros2arm_ws/build/yolo_pred
+[0.424s] Invoked command in '/home/administrator/ros2arm_ws/build/yolo_pred' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/administrator/ros2arm_ws/src/yolo_pred -DCMAKE_INSTALL_PREFIX=/home/administrator/ros2arm_ws/install/yolo_pred
+[0.425s] Invoking command in '/home/administrator/ros2arm_ws/build/yolo_pred': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2arm_ws/build/yolo_pred -- -j20 -l20
+[0.444s] Invoked command in '/home/administrator/ros2arm_ws/build/yolo_pred' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2arm_ws/build/yolo_pred -- -j20 -l20
+[0.458s] Invoking command in '/home/administrator/ros2arm_ws/build/yolo_pred': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2arm_ws/build/yolo_pred
+[0.464s] -- Install configuration: ""
+[0.464s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_fabric
+[0.464s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_fabric/data2.yaml
+[0.507s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_fabric/param
+[0.507s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_fabric/param/val_batch0_pred.jpg
+[0.569s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_fabric/param/PR_curve.png
+[0.640s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_fabric/param/train_batch1.jpg
+[0.706s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_fabric/param/hyp.yaml
+[0.729s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_fabric/param/P_curve.png
+[0.754s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_fabric/param/val_batch1_labels.jpg
+[0.824s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_fabric/param/labels_correlogram.jpg
+[0.837s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_fabric/param/val_batch0_labels.jpg
+[0.852s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_fabric/param/results.png
+[0.867s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_fabric/param/train_batch2.jpg
+[0.880s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_fabric/param/opt.yaml
+[0.880s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_fabric/param/results.csv
+[0.881s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_fabric/param/labels.jpg
+[0.900s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_fabric/param/confusion_matrix.png
+[0.913s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_fabric/param/F1_curve.png
+[0.917s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_fabric/param/R_curve.png
+[0.924s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_fabric/param/val_batch2_labels.jpg
+[0.950s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_fabric/param/val_batch2_pred.jpg
+[0.958s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_fabric/param/val_batch1_pred.jpg
+[0.965s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_fabric/param/train_batch0.jpg
+[0.989s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_fabric/13.jpg
+[1.018s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_fabric/data.yaml
+[1.031s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_fabric/weights
+[1.031s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_fabric/weights/best.pt
+[1.138s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_fabric/weights/best2.onnx
+[1.332s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_fabric/weights/last.pt
+[1.437s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_fabric/weights/best.onnx
+[1.704s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_Shirt
+[1.704s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_Shirt/Params
+[1.704s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_Shirt/Params/val_batch0_pred.jpg
+[1.723s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_Shirt/Params/PR_curve.png
+[1.746s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_Shirt/Params/train_batch1.jpg
+[1.771s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_Shirt/Params/hyp.yaml
+[1.785s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_Shirt/Params/P_curve.png
+[1.815s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_Shirt/Params/labels_correlogram.jpg
+[1.824s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_Shirt/Params/val_batch0_labels.jpg
+[1.849s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_Shirt/Params/results.png
+[1.862s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_Shirt/Params/train_batch2.jpg
+[1.864s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_Shirt/Params/opt.yaml
+[1.864s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_Shirt/Params/results.csv
+[1.884s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_Shirt/Params/labels.jpg
+[1.895s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_Shirt/Params/confusion_matrix.png
+[1.896s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_Shirt/Params/F1_curve.png
+[1.919s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_Shirt/Params/R_curve.png
+[1.946s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_Shirt/Params/train_batch0.jpg
+[1.973s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_Shirt/22.jpeg
+[2.010s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_Shirt/camera.rviz
+[2.025s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_Shirt/76.jpeg
+[2.051s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_Shirt/data3.yaml
+[2.063s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_Shirt/weights
+[2.063s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_Shirt/weights/best.pt
+[2.164s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_Shirt/weights/best2.onnx
+[2.378s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_Shirt/weights/last.pt
+[2.492s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/Model_Shirt/weights/best.onnx
+[2.674s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/lib/yolo_pred/yolo_shirt_pred.py
+[2.699s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/lib/yolo_pred/yolo_shirt.py
+[2.710s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/lib/yolo_pred/camera_launch.py
+[2.725s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/lib/yolo_pred/final_task.py
+[2.740s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/lib/yolo_pred/yolo_fabric_pred.py
+[2.744s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/ament_index/resource_index/package_run_dependencies/yolo_pred
+[2.745s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/ament_index/resource_index/parent_prefix_path/yolo_pred
+[2.745s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/environment/ament_prefix_path.sh
+[2.745s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/environment/ament_prefix_path.dsv
+[2.746s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/environment/path.sh
+[2.746s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/environment/path.dsv
+[2.746s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/local_setup.bash
+[2.746s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/local_setup.sh
+[2.746s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/local_setup.zsh
+[2.746s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/local_setup.dsv
+[2.746s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/package.dsv
+[2.747s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/ament_index/resource_index/packages/yolo_pred
+[2.747s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/cmake/yolo_predConfig.cmake
+[2.747s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/cmake/yolo_predConfig-version.cmake
+[2.747s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/package.xml
+[2.751s] Invoked command in '/home/administrator/ros2arm_ws/build/yolo_pred' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2arm_ws/build/yolo_pred

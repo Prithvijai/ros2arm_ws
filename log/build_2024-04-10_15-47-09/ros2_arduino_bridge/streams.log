@@ -1,0 +1,22 @@
+[0.011s] Invoking command in '/home/administrator/ros2arm_ws/build/ros2_arduino_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2arm_ws/build/ros2_arduino_bridge -- -j20 -l20
+[0.030s] Invoked command in '/home/administrator/ros2arm_ws/build/ros2_arduino_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2arm_ws/build/ros2_arduino_bridge -- -j20 -l20
+[0.046s] Invoking command in '/home/administrator/ros2arm_ws/build/ros2_arduino_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2arm_ws/build/ros2_arduino_bridge
+[0.051s] -- Install configuration: ""
+[0.052s] -- Execute custom install script
+[0.052s] -- Up-to-date symlink: /home/administrator/ros2arm_ws/install/ros2_arduino_bridge/lib/ros2_arduino_bridge/arduino_arm_connect.py
+[0.052s] -- Up-to-date symlink: /home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ament_index/resource_index/package_run_dependencies/ros2_arduino_bridge
+[0.052s] -- Up-to-date symlink: /home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ament_index/resource_index/parent_prefix_path/ros2_arduino_bridge
+[0.052s] -- Up-to-date symlink: /home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/environment/ament_prefix_path.sh
+[0.052s] -- Up-to-date symlink: /home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/environment/ament_prefix_path.dsv
+[0.052s] -- Up-to-date symlink: /home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/environment/path.sh
+[0.052s] -- Up-to-date symlink: /home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/environment/path.dsv
+[0.052s] -- Up-to-date symlink: /home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/local_setup.bash
+[0.053s] -- Up-to-date symlink: /home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/local_setup.sh
+[0.053s] -- Up-to-date symlink: /home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/local_setup.zsh
+[0.053s] -- Up-to-date symlink: /home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/local_setup.dsv
+[0.053s] -- Symlinking: /home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/package.dsv
+[0.057s] -- Up-to-date symlink: /home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ament_index/resource_index/packages/ros2_arduino_bridge
+[0.057s] -- Up-to-date symlink: /home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/cmake/ros2_arduino_bridgeConfig.cmake
+[0.057s] -- Up-to-date symlink: /home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/cmake/ros2_arduino_bridgeConfig-version.cmake
+[0.058s] -- Up-to-date symlink: /home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/package.xml
+[0.066s] Invoked command in '/home/administrator/ros2arm_ws/build/ros2_arduino_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2arm_ws/build/ros2_arduino_bridge

@@ -1,0 +1,49 @@
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/administrator/ros2arm_ws/build/yolo_pred_nodes
+-- Install configuration: ""
+-- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_fabric
+-- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_fabric/data2.yaml
+-- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_fabric/13.jpg
+-- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_fabric/data.yaml
+-- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_fabric/weights
+-- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_fabric/weights/best.pt
+-- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_fabric/weights/best2.onnx
+-- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_fabric/weights/last.pt
+-- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_fabric/weights/best.onnx
+-- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_Shirt
+-- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_Shirt/22.jpeg
+-- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_Shirt/camera.rviz
+-- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_Shirt/76.jpeg
+-- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_Shirt/data3.yaml
+-- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_Shirt/weights
+-- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_Shirt/weights/best.pt
+-- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_Shirt/weights/best2.onnx
+-- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_Shirt/weights/last.pt
+-- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_Shirt/weights/best.onnx
+-- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/config
+-- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/config/camera_view.rviz
+-- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/lib/yolo_pred_nodes/yolo_fabric_pred.py
+-- Installing: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/lib/yolo_pred_nodes/yolo_shirt_pred.py
+-- Installing: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/lib/yolo_pred_nodes/camera_launch.py
+-- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/ament_index/resource_index/package_run_dependencies/yolo_pred_nodes
+-- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/ament_index/resource_index/parent_prefix_path/yolo_pred_nodes
+-- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/environment/ament_prefix_path.sh
+-- Installing: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/environment/path.sh
+-- Installing: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/environment/path.dsv
+-- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/local_setup.bash
+-- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/local_setup.sh
+-- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/local_setup.zsh
+-- Installing: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/local_setup.dsv
+-- Installing: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/package.dsv
+-- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/ament_index/resource_index/packages/yolo_pred_nodes
+-- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/cmake/yolo_pred_nodesConfig.cmake
+-- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/cmake/yolo_pred_nodesConfig-version.cmake
+-- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/package.xml

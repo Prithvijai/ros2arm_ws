@@ -1,0 +1,16 @@
+/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/lib/ros2_arduino_bridge/arduino_arm_connect.py
+/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ament_index/resource_index/package_run_dependencies/ros2_arduino_bridge
+/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ament_index/resource_index/parent_prefix_path/ros2_arduino_bridge
+/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/environment/ament_prefix_path.sh
+/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/environment/ament_prefix_path.dsv
+/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/environment/path.sh
+/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/environment/path.dsv
+/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/local_setup.bash
+/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/local_setup.sh
+/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/local_setup.zsh
+/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/local_setup.dsv
+/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/package.dsv
+/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ament_index/resource_index/packages/ros2_arduino_bridge
+/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/cmake/ros2_arduino_bridgeConfig.cmake
+/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/cmake/ros2_arduino_bridgeConfig-version.cmake
+/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/package.xml

@@ -1,0 +1,44 @@
+[0.495s] Invoking command in '/home/administrator/ros2arm_ws/build/yolo_pred_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2arm_ws/build/yolo_pred_nodes -- -j20 -l20
+[1.790s] Invoked command in '/home/administrator/ros2arm_ws/build/yolo_pred_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2arm_ws/build/yolo_pred_nodes -- -j20 -l20
+[1.808s] Invoking command in '/home/administrator/ros2arm_ws/build/yolo_pred_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2arm_ws/build/yolo_pred_nodes
+[1.843s] -- Install configuration: ""
+[1.900s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_fabric
+[1.974s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_fabric/data2.yaml
+[1.975s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_fabric/13.jpg
+[1.975s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_fabric/data.yaml
+[1.975s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_fabric/weights
+[1.976s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_fabric/weights/best.pt
+[1.976s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_fabric/weights/best2.onnx
+[1.976s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_fabric/weights/last.pt
+[1.977s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_fabric/weights/best.onnx
+[1.977s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_Shirt
+[1.989s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_Shirt/22.jpeg
+[1.989s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_Shirt/camera.rviz
+[1.990s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_Shirt/76.jpeg
+[1.990s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_Shirt/data3.yaml
+[1.990s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_Shirt/weights
+[2.005s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_Shirt/weights/best.pt
+[2.005s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_Shirt/weights/best2.onnx
+[2.005s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_Shirt/weights/last.pt
+[2.005s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/Model_Shirt/weights/best.onnx
+[2.005s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/config
+[2.006s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/config/camera_view.rviz
+[2.035s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/lib/yolo_pred_nodes/yolo_fabric_pred.py
+[2.036s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/lib/yolo_pred_nodes/yolo_shirt_pred.py
+[2.036s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/lib/yolo_pred_nodes/camera_launch.py
+[2.036s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/ament_index/resource_index/package_run_dependencies/yolo_pred_nodes
+[2.048s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/ament_index/resource_index/parent_prefix_path/yolo_pred_nodes
+[2.049s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/environment/ament_prefix_path.sh
+[2.049s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/environment/ament_prefix_path.dsv
+[2.049s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/environment/path.sh
+[2.049s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/environment/path.dsv
+[2.049s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/local_setup.bash
+[2.049s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/local_setup.sh
+[2.049s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/local_setup.zsh
+[2.050s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/local_setup.dsv
+[2.050s] -- Installing: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/package.dsv
+[2.127s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/ament_index/resource_index/packages/yolo_pred_nodes
+[2.143s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/cmake/yolo_pred_nodesConfig.cmake
+[2.144s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/cmake/yolo_pred_nodesConfig-version.cmake
+[2.144s] -- Up-to-date: /home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/package.xml
+[2.704s] Invoked command in '/home/administrator/ros2arm_ws/build/yolo_pred_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2arm_ws/build/yolo_pred_nodes

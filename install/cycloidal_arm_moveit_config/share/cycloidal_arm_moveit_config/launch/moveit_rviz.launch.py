@@ -1,0 +1,1 @@
+/home/administrator/ros2arm_ws/src/cycloidal_arm_moveit_config/launch/moveit_rviz.launch.py

@@ -1,0 +1,26 @@
+[0.011s] Invoking command in '/home/administrator/ros2arm_ws/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2arm_ws/build/hello_moveit -- -j20 -l20
+[0.035s] [35m[1mConsolidate compiler generated dependencies of target hello_moveit[0m
+[0.047s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[3.458s] [100%] [32m[1mLinking CXX executable hello_moveit[0m
+[3.599s] [100%] Built target hello_moveit
+[3.606s] Invoked command in '/home/administrator/ros2arm_ws/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2arm_ws/build/hello_moveit -- -j20 -l20
+[3.619s] Invoking command in '/home/administrator/ros2arm_ws/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2arm_ws/build/hello_moveit
+[3.625s] -- Install configuration: ""
+[3.625s] -- Installing: /home/administrator/ros2arm_ws/install/hello_moveit/lib/hello_moveit/hello_moveit
+[3.625s] -- Set runtime path of "/home/administrator/ros2arm_ws/install/hello_moveit/lib/hello_moveit/hello_moveit" to ""
+[3.625s] -- Up-to-date: /home/administrator/ros2arm_ws/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit
+[3.625s] -- Up-to-date: /home/administrator/ros2arm_ws/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit
+[3.625s] -- Up-to-date: /home/administrator/ros2arm_ws/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.sh
+[3.625s] -- Up-to-date: /home/administrator/ros2arm_ws/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.dsv
+[3.625s] -- Up-to-date: /home/administrator/ros2arm_ws/install/hello_moveit/share/hello_moveit/environment/path.sh
+[3.625s] -- Up-to-date: /home/administrator/ros2arm_ws/install/hello_moveit/share/hello_moveit/environment/path.dsv
+[3.625s] -- Up-to-date: /home/administrator/ros2arm_ws/install/hello_moveit/share/hello_moveit/local_setup.bash
+[3.625s] -- Up-to-date: /home/administrator/ros2arm_ws/install/hello_moveit/share/hello_moveit/local_setup.sh
+[3.625s] -- Up-to-date: /home/administrator/ros2arm_ws/install/hello_moveit/share/hello_moveit/local_setup.zsh
+[3.626s] -- Up-to-date: /home/administrator/ros2arm_ws/install/hello_moveit/share/hello_moveit/local_setup.dsv
+[3.626s] -- Installing: /home/administrator/ros2arm_ws/install/hello_moveit/share/hello_moveit/package.dsv
+[3.626s] -- Up-to-date: /home/administrator/ros2arm_ws/install/hello_moveit/share/ament_index/resource_index/packages/hello_moveit
+[3.626s] -- Up-to-date: /home/administrator/ros2arm_ws/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig.cmake
+[3.626s] -- Up-to-date: /home/administrator/ros2arm_ws/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig-version.cmake
+[3.626s] -- Up-to-date: /home/administrator/ros2arm_ws/install/hello_moveit/share/hello_moveit/package.xml
+[3.626s] Invoked command in '/home/administrator/ros2arm_ws/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2arm_ws/build/hello_moveit

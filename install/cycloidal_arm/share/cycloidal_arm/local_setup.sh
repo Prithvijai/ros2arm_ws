@@ -1,0 +1,1 @@
+/home/administrator/ros2arm_ws/build/cycloidal_arm/ament_cmake_environment_hooks/local_setup.sh

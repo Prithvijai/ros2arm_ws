@@ -1,0 +1,15 @@
+/home/administrator/ros2arm_ws/install/yolo_pred/share/ament_index/resource_index/package_run_dependencies/yolo_pred
+/home/administrator/ros2arm_ws/install/yolo_pred/share/ament_index/resource_index/parent_prefix_path/yolo_pred
+/home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/environment/ament_prefix_path.sh
+/home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/environment/ament_prefix_path.dsv
+/home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/environment/path.sh
+/home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/environment/path.dsv
+/home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/local_setup.bash
+/home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/local_setup.sh
+/home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/local_setup.zsh
+/home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/local_setup.dsv
+/home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/package.dsv
+/home/administrator/ros2arm_ws/install/yolo_pred/share/ament_index/resource_index/packages/yolo_pred
+/home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/cmake/yolo_predConfig.cmake
+/home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/cmake/yolo_predConfig-version.cmake
+/home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/package.xml

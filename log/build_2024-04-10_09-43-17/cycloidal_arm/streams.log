@@ -1,0 +1,78 @@
+[0.009s] Invoking command in '/home/administrator/ros2arm_ws/build/cycloidal_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/administrator/ros2arm_ws/src/cycloidal_arm -DCMAKE_INSTALL_PREFIX=/home/administrator/ros2arm_ws/install/cycloidal_arm
+[0.042s] -- The C compiler identification is GNU 11.4.0
+[0.071s] -- The CXX compiler identification is GNU 11.4.0
+[0.074s] -- Detecting C compiler ABI info
+[0.111s] -- Detecting C compiler ABI info - done
+[0.115s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.115s] -- Detecting C compile features
+[0.115s] -- Detecting C compile features - done
+[0.117s] -- Detecting CXX compiler ABI info
+[0.158s] -- Detecting CXX compiler ABI info - done
+[0.163s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.163s] -- Detecting CXX compile features
+[0.163s] -- Detecting CXX compile features - done
+[0.164s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.248s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.321s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.418s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.418s] -- Added test 'lint_cmake' to check CMake code style
+[0.419s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.419s] -- Added test 'xmllint' to check XML markup files
+[0.420s] -- Configuring done
+[0.421s] -- Generating done
+[0.422s] -- Build files have been written to: /home/administrator/ros2arm_ws/build/cycloidal_arm
+[0.424s] Invoked command in '/home/administrator/ros2arm_ws/build/cycloidal_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/administrator/ros2arm_ws/src/cycloidal_arm -DCMAKE_INSTALL_PREFIX=/home/administrator/ros2arm_ws/install/cycloidal_arm
+[0.425s] Invoking command in '/home/administrator/ros2arm_ws/build/cycloidal_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2arm_ws/build/cycloidal_arm -- -j20 -l20
+[0.444s] Invoked command in '/home/administrator/ros2arm_ws/build/cycloidal_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2arm_ws/build/cycloidal_arm -- -j20 -l20
+[0.461s] Invoking command in '/home/administrator/ros2arm_ws/build/cycloidal_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2arm_ws/build/cycloidal_arm
+[0.466s] -- Install configuration: ""
+[0.466s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/launch
+[0.466s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/launch/rsp.launch.py
+[0.466s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/launch/display.launch.py
+[0.466s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/launch/robot_gazebo.launch.py
+[0.466s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/launch/gazebo.launch.py
+[0.466s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/launch/demo.launch.py
+[0.466s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/urdf
+[0.466s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/urdf/cycloidal_arm.xacro
+[0.466s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/urdf/camera.xacro
+[0.466s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/urdf/gazebo_arm.xacro
+[0.466s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/urdf/trans_arm.xacro
+[0.466s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/urdf/ros2_control.xacro
+[0.466s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/urdf/inertial.xacro
+[0.466s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/urdf/materials.xacro
+[0.466s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/meshes
+[0.466s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/meshes/base_link.stl
+[0.466s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/meshes/link_4_1.stl
+[0.466s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/meshes/link_3_1.stl
+[0.467s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/meshes/link_2_1.stl
+[0.467s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/meshes/link_1_1.stl
+[0.467s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/meshes/camera_1.stl
+[0.467s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/meshes/link_5_1.stl
+[0.467s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/config
+[0.467s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/config/controller.yaml
+[0.467s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/config/gazebo_param.yaml
+[0.467s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/config/joint_names_cycloidal_arm.yaml
+[0.467s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/config/my_controller.yaml
+[0.467s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/config/robot_view.rviz
+[0.467s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/config/urdf.rviz
+[0.467s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/world
+[0.467s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/world/defect.jpg
+[0.782s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/world/test_world
+[0.782s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/world/test_world/model.sdf
+[0.809s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/world/test_world/model.config
+[0.809s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/ament_index/resource_index/package_run_dependencies/cycloidal_arm
+[0.810s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/ament_index/resource_index/parent_prefix_path/cycloidal_arm
+[0.810s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/environment/ament_prefix_path.sh
+[0.810s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/environment/ament_prefix_path.dsv
+[0.810s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/environment/path.sh
+[0.810s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/environment/path.dsv
+[0.810s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/local_setup.bash
+[0.810s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/local_setup.sh
+[0.810s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/local_setup.zsh
+[0.810s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/local_setup.dsv
+[0.810s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/package.dsv
+[0.810s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/ament_index/resource_index/packages/cycloidal_arm
+[0.810s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/cmake/cycloidal_armConfig.cmake
+[0.810s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/cmake/cycloidal_armConfig-version.cmake
+[0.810s] -- Installing: /home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/package.xml
+[0.811s] Invoked command in '/home/administrator/ros2arm_ws/build/cycloidal_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2arm_ws/build/cycloidal_arm
