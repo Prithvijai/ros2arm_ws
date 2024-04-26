@@ -1,0 +1,650 @@
+[0.672s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.672s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7bbbc3d144f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7bbbc3edbeb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7bbbc3edbeb0>>, mixin_verb=('build',))[0m
+[4.815s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[4.815s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[4.815s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[4.815s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[4.815s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[4.815s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[4.815s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/administrator/ros2arm_ws'
+[4.815s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.815s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[4.816s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[4.816s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[4.816s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[4.816s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[4.816s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[4.816s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[4.816s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[4.859s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[4.859s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[4.859s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[4.860s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[4.860s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[4.860s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.860s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[4.860s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[4.860s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.860s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[4.860s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[4.860s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.861s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[4.861s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[4.861s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.861s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[4.861s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[4.861s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[4.861s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[4.861s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[4.861s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[4.861s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[4.861s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[4.862s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[4.862s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[4.862s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[4.862s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[4.862s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[4.862s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arm_connect) by extensions ['ignore', 'ignore_ament_install']
+[4.862s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arm_connect) by extension 'ignore'
+[4.862s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arm_connect) by extension 'ignore_ament_install'
+[4.862s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arm_connect) by extensions ['colcon_pkg']
+[4.862s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arm_connect) by extension 'colcon_pkg'
+[4.862s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arm_connect) by extensions ['colcon_meta']
+[4.862s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arm_connect) by extension 'colcon_meta'
+[4.862s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arm_connect) by extensions ['ros']
+[4.862s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arm_connect) by extension 'ros'
+[4.894s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/arm_connect' with type 'ros.ament_cmake' and name 'arm_connect'[0m
+[4.894s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arm_controller_pkg) by extensions ['ignore', 'ignore_ament_install']
+[4.894s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arm_controller_pkg) by extension 'ignore'
+[4.894s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arm_controller_pkg) by extension 'ignore_ament_install'
+[4.894s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arm_controller_pkg) by extensions ['colcon_pkg']
+[4.894s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arm_controller_pkg) by extension 'colcon_pkg'
+[4.894s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arm_controller_pkg) by extensions ['colcon_meta']
+[4.894s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arm_controller_pkg) by extension 'colcon_meta'
+[4.894s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arm_controller_pkg) by extensions ['ros']
+[4.894s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arm_controller_pkg) by extension 'ros'
+[4.910s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/arm_controller_pkg' with type 'ros.ament_cmake' and name 'arm_controller_pkg'[0m
+[4.910s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cycloidal_arm) by extensions ['ignore', 'ignore_ament_install']
+[4.910s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cycloidal_arm) by extension 'ignore'
+[4.910s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cycloidal_arm) by extension 'ignore_ament_install'
+[4.911s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cycloidal_arm) by extensions ['colcon_pkg']
+[4.911s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cycloidal_arm) by extension 'colcon_pkg'
+[4.911s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cycloidal_arm) by extensions ['colcon_meta']
+[4.911s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cycloidal_arm) by extension 'colcon_meta'
+[4.911s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cycloidal_arm) by extensions ['ros']
+[4.911s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cycloidal_arm) by extension 'ros'
+[4.931s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/cycloidal_arm' with type 'ros.ament_cmake' and name 'cycloidal_arm'[0m
+[4.931s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cycloidal_arm_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[4.931s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cycloidal_arm_moveit_config) by extension 'ignore'
+[4.931s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cycloidal_arm_moveit_config) by extension 'ignore_ament_install'
+[4.931s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cycloidal_arm_moveit_config) by extensions ['colcon_pkg']
+[4.931s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cycloidal_arm_moveit_config) by extension 'colcon_pkg'
+[4.931s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cycloidal_arm_moveit_config) by extensions ['colcon_meta']
+[4.931s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cycloidal_arm_moveit_config) by extension 'colcon_meta'
+[4.931s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cycloidal_arm_moveit_config) by extensions ['ros']
+[4.931s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cycloidal_arm_moveit_config) by extension 'ros'
+[4.936s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/cycloidal_arm_moveit_config' with type 'ros.ament_cmake' and name 'cycloidal_arm_moveit_config'[0m
+[4.936s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/final_moveit) by extensions ['ignore', 'ignore_ament_install']
+[4.936s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/final_moveit) by extension 'ignore'
+[4.936s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/final_moveit) by extension 'ignore_ament_install'
+[4.936s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/final_moveit) by extensions ['colcon_pkg']
+[4.936s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/final_moveit) by extension 'colcon_pkg'
+[4.936s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/final_moveit) by extensions ['colcon_meta']
+[4.936s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/final_moveit) by extension 'colcon_meta'
+[4.936s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/final_moveit) by extensions ['ros']
+[4.936s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/final_moveit) by extension 'ros'
+[4.952s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/final_moveit' with type 'ros.ament_cmake' and name 'final_moveit'[0m
+[4.952s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hello_moveit) by extensions ['ignore', 'ignore_ament_install']
+[4.952s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hello_moveit) by extension 'ignore'
+[4.952s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hello_moveit) by extension 'ignore_ament_install'
+[4.952s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hello_moveit) by extensions ['colcon_pkg']
+[4.952s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hello_moveit) by extension 'colcon_pkg'
+[4.952s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hello_moveit) by extensions ['colcon_meta']
+[4.952s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hello_moveit) by extension 'colcon_meta'
+[4.952s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hello_moveit) by extensions ['ros']
+[4.952s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hello_moveit) by extension 'ros'
+[4.972s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/hello_moveit' with type 'ros.ament_cmake' and name 'hello_moveit'[0m
+[4.973s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_arduino_bridge) by extensions ['ignore', 'ignore_ament_install']
+[4.973s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_arduino_bridge) by extension 'ignore'
+[4.973s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_arduino_bridge) by extension 'ignore_ament_install'
+[4.973s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_arduino_bridge) by extensions ['colcon_pkg']
+[4.973s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_arduino_bridge) by extension 'colcon_pkg'
+[4.973s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_arduino_bridge) by extensions ['colcon_meta']
+[4.973s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_arduino_bridge) by extension 'colcon_meta'
+[4.973s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_arduino_bridge) by extensions ['ros']
+[4.973s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_arduino_bridge) by extension 'ros'
+[4.991s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/ros2_arduino_bridge' with type 'ros.ament_cmake' and name 'ros2_arduino_bridge'[0m
+[4.991s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_pred) by extensions ['ignore', 'ignore_ament_install']
+[4.991s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_pred) by extension 'ignore'
+[4.991s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_pred) by extension 'ignore_ament_install'
+[4.991s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_pred) by extensions ['colcon_pkg']
+[4.991s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_pred) by extension 'colcon_pkg'
+[4.991s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_pred) by extensions ['colcon_meta']
+[4.991s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_pred) by extension 'colcon_meta'
+[4.991s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_pred) by extensions ['ros']
+[4.991s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_pred) by extension 'ros'
+[4.996s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/yolo_pred' with type 'ros.ament_cmake' and name 'yolo_pred'[0m
+[4.996s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_pred_nodes) by extensions ['ignore', 'ignore_ament_install']
+[4.996s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_pred_nodes) by extension 'ignore'
+[4.996s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_pred_nodes) by extension 'ignore_ament_install'
+[4.996s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_pred_nodes) by extensions ['colcon_pkg']
+[4.996s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_pred_nodes) by extension 'colcon_pkg'
+[4.996s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_pred_nodes) by extensions ['colcon_meta']
+[4.996s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_pred_nodes) by extension 'colcon_meta'
+[4.996s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_pred_nodes) by extensions ['ros']
+[4.996s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_pred_nodes) by extension 'ros'
+[5.019s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/yolo_pred_nodes' with type 'ros.ament_cmake' and name 'yolo_pred_nodes'[0m
+[5.020s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[5.020s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[5.020s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[5.020s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[5.020s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[5.144s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[5.144s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[5.154s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 9 installed packages in /home/administrator/ros2arm_ws/install[0m
+[5.175s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 0 installed packages in /home/administrator/ros2_ws/install[0m
+[5.176s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 4 installed packages in /home/administrator/uros_ws/install[0m
+[5.199s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 0 installed packages in /home/administrator/cycloidal_ws/install[0m
+[5.201s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 362 installed packages in /opt/ros/humble[0m
+[5.203s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[5.502s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_connect' build argument 'cmake_args' from command line to 'None'
+[5.502s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_connect' build argument 'cmake_target' from command line to 'None'
+[5.502s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_connect' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.502s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_connect' build argument 'cmake_clean_cache' from command line to 'False'
+[5.502s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_connect' build argument 'cmake_clean_first' from command line to 'False'
+[5.502s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_connect' build argument 'cmake_force_configure' from command line to 'False'
+[5.502s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_connect' build argument 'ament_cmake_args' from command line to 'None'
+[5.502s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_connect' build argument 'catkin_cmake_args' from command line to 'None'
+[5.502s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_connect' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.502s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'arm_connect' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/administrator/ros2arm_ws/build/arm_connect', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/administrator/ros2arm_ws/install/arm_connect', 'merge_install': False, 'path': '/home/administrator/ros2arm_ws/src/arm_connect', 'symlink_install': False, 'test_result_base': None}[0m
+[5.503s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_controller_pkg' build argument 'cmake_args' from command line to 'None'
+[5.503s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_controller_pkg' build argument 'cmake_target' from command line to 'None'
+[5.503s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_controller_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.503s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_controller_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[5.503s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_controller_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[5.503s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_controller_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[5.503s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_controller_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[5.503s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_controller_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[5.503s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_controller_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.503s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'arm_controller_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/administrator/ros2arm_ws/build/arm_controller_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/administrator/ros2arm_ws/install/arm_controller_pkg', 'merge_install': False, 'path': '/home/administrator/ros2arm_ws/src/arm_controller_pkg', 'symlink_install': False, 'test_result_base': None}[0m
+[5.503s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cycloidal_arm' build argument 'cmake_args' from command line to 'None'
+[5.503s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cycloidal_arm' build argument 'cmake_target' from command line to 'None'
+[5.503s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cycloidal_arm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.503s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cycloidal_arm' build argument 'cmake_clean_cache' from command line to 'False'
+[5.503s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cycloidal_arm' build argument 'cmake_clean_first' from command line to 'False'
+[5.503s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cycloidal_arm' build argument 'cmake_force_configure' from command line to 'False'
+[5.503s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cycloidal_arm' build argument 'ament_cmake_args' from command line to 'None'
+[5.503s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cycloidal_arm' build argument 'catkin_cmake_args' from command line to 'None'
+[5.503s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cycloidal_arm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.503s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'cycloidal_arm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/administrator/ros2arm_ws/build/cycloidal_arm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/administrator/ros2arm_ws/install/cycloidal_arm', 'merge_install': False, 'path': '/home/administrator/ros2arm_ws/src/cycloidal_arm', 'symlink_install': False, 'test_result_base': None}[0m
+[5.503s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'final_moveit' build argument 'cmake_args' from command line to 'None'
+[5.503s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'final_moveit' build argument 'cmake_target' from command line to 'None'
+[5.503s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'final_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.503s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'final_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[5.503s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'final_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[5.503s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'final_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[5.503s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'final_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[5.503s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'final_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[5.503s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'final_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.503s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'final_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/administrator/ros2arm_ws/build/final_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/administrator/ros2arm_ws/install/final_moveit', 'merge_install': False, 'path': '/home/administrator/ros2arm_ws/src/final_moveit', 'symlink_install': False, 'test_result_base': None}[0m
+[5.504s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hello_moveit' build argument 'cmake_args' from command line to 'None'
+[5.504s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hello_moveit' build argument 'cmake_target' from command line to 'None'
+[5.504s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hello_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.504s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hello_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[5.504s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hello_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[5.504s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hello_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[5.504s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hello_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[5.504s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hello_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[5.504s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hello_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.504s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'hello_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/administrator/ros2arm_ws/build/hello_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/administrator/ros2arm_ws/install/hello_moveit', 'merge_install': False, 'path': '/home/administrator/ros2arm_ws/src/hello_moveit', 'symlink_install': False, 'test_result_base': None}[0m
+[5.504s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_arduino_bridge' build argument 'cmake_args' from command line to 'None'
+[5.504s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_arduino_bridge' build argument 'cmake_target' from command line to 'None'
+[5.504s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_arduino_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.504s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_arduino_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[5.504s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_arduino_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[5.504s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_arduino_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[5.504s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_arduino_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[5.504s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_arduino_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[5.504s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_arduino_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.504s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ros2_arduino_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/administrator/ros2arm_ws/build/ros2_arduino_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/administrator/ros2arm_ws/install/ros2_arduino_bridge', 'merge_install': False, 'path': '/home/administrator/ros2arm_ws/src/ros2_arduino_bridge', 'symlink_install': False, 'test_result_base': None}[0m
+[5.504s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_pred' build argument 'cmake_args' from command line to 'None'
+[5.504s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_pred' build argument 'cmake_target' from command line to 'None'
+[5.504s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_pred' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.504s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_pred' build argument 'cmake_clean_cache' from command line to 'False'
+[5.504s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_pred' build argument 'cmake_clean_first' from command line to 'False'
+[5.504s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_pred' build argument 'cmake_force_configure' from command line to 'False'
+[5.504s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_pred' build argument 'ament_cmake_args' from command line to 'None'
+[5.504s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_pred' build argument 'catkin_cmake_args' from command line to 'None'
+[5.504s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_pred' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.504s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'yolo_pred' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/administrator/ros2arm_ws/build/yolo_pred', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/administrator/ros2arm_ws/install/yolo_pred', 'merge_install': False, 'path': '/home/administrator/ros2arm_ws/src/yolo_pred', 'symlink_install': False, 'test_result_base': None}[0m
+[5.505s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_pred_nodes' build argument 'cmake_args' from command line to 'None'
+[5.505s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_pred_nodes' build argument 'cmake_target' from command line to 'None'
+[5.505s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_pred_nodes' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.505s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_pred_nodes' build argument 'cmake_clean_cache' from command line to 'False'
+[5.505s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_pred_nodes' build argument 'cmake_clean_first' from command line to 'False'
+[5.505s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_pred_nodes' build argument 'cmake_force_configure' from command line to 'False'
+[5.505s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_pred_nodes' build argument 'ament_cmake_args' from command line to 'None'
+[5.505s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_pred_nodes' build argument 'catkin_cmake_args' from command line to 'None'
+[5.505s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_pred_nodes' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.505s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'yolo_pred_nodes' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/administrator/ros2arm_ws/build/yolo_pred_nodes', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/administrator/ros2arm_ws/install/yolo_pred_nodes', 'merge_install': False, 'path': '/home/administrator/ros2arm_ws/src/yolo_pred_nodes', 'symlink_install': False, 'test_result_base': None}[0m
+[5.505s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cycloidal_arm_moveit_config' build argument 'cmake_args' from command line to 'None'
+[5.505s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cycloidal_arm_moveit_config' build argument 'cmake_target' from command line to 'None'
+[5.505s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cycloidal_arm_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.505s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cycloidal_arm_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[5.505s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cycloidal_arm_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[5.505s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cycloidal_arm_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[5.505s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cycloidal_arm_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[5.505s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cycloidal_arm_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[5.505s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cycloidal_arm_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.505s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'cycloidal_arm_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/administrator/ros2arm_ws/build/cycloidal_arm_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/administrator/ros2arm_ws/install/cycloidal_arm_moveit_config', 'merge_install': False, 'path': '/home/administrator/ros2arm_ws/src/cycloidal_arm_moveit_config', 'symlink_install': False, 'test_result_base': None}[0m
+[5.505s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[5.506s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[5.506s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/administrator/ros2arm_ws/src/cycloidal_arm' with build type 'ament_cmake'
+[5.506s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/administrator/ros2arm_ws/src/cycloidal_arm'
+[5.511s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.511s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.511s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[5.522s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/administrator/ros2arm_ws/src/arm_connect' with build type 'ament_cmake'
+[5.522s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/administrator/ros2arm_ws/src/arm_connect'
+[5.522s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.522s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[5.548s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/administrator/ros2arm_ws/src/arm_controller_pkg' with build type 'ament_cmake'
+[5.548s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/administrator/ros2arm_ws/src/arm_controller_pkg'
+[5.549s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.549s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[5.580s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/administrator/ros2arm_ws/src/final_moveit' with build type 'ament_cmake'
+[5.580s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/administrator/ros2arm_ws/src/final_moveit'
+[5.580s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.580s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[5.614s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/administrator/ros2arm_ws/src/hello_moveit' with build type 'ament_cmake'
+[5.614s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/administrator/ros2arm_ws/src/hello_moveit'
+[5.614s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.614s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[5.617s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/administrator/ros2arm_ws/src/ros2_arduino_bridge' with build type 'ament_cmake'
+[5.617s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/administrator/ros2arm_ws/src/ros2_arduino_bridge'
+[5.617s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.617s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[5.621s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/administrator/ros2arm_ws/src/yolo_pred' with build type 'ament_cmake'
+[5.621s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/administrator/ros2arm_ws/src/yolo_pred'
+[5.621s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.621s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[5.626s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/administrator/ros2arm_ws/src/yolo_pred_nodes' with build type 'ament_cmake'
+[5.627s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/administrator/ros2arm_ws/src/yolo_pred_nodes'
+[5.627s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.627s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[5.661s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/administrator/ros2arm_ws/build/cycloidal_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2arm_ws/build/cycloidal_arm -- -j20 -l20[0m
+[5.684s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/administrator/ros2arm_ws/build/arm_connect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2arm_ws/build/arm_connect -- -j20 -l20[0m
+[5.695s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/administrator/ros2arm_ws/build/arm_controller_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2arm_ws/build/arm_controller_pkg -- -j20 -l20[0m
+[5.731s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/administrator/ros2arm_ws/build/final_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2arm_ws/build/final_moveit -- -j20 -l20[0m
+[5.773s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/administrator/ros2arm_ws/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2arm_ws/build/hello_moveit -- -j20 -l20[0m
+[5.810s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/administrator/ros2arm_ws/build/ros2_arduino_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2arm_ws/build/ros2_arduino_bridge -- -j20 -l20[0m
+[5.834s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/administrator/ros2arm_ws/build/yolo_pred': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2arm_ws/build/yolo_pred -- -j20 -l20[0m
+[5.906s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/administrator/ros2arm_ws/build/yolo_pred_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2arm_ws/build/yolo_pred_nodes -- -j20 -l20[0m
+[6.293s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/administrator/ros2arm_ws/build/yolo_pred_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2arm_ws/build/yolo_pred_nodes -- -j20 -l20[0m
+[6.293s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/administrator/ros2arm_ws/build/arm_connect' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2arm_ws/build/arm_connect -- -j20 -l20[0m
+[6.295s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/administrator/ros2arm_ws/build/ros2_arduino_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2arm_ws/build/ros2_arduino_bridge -- -j20 -l20[0m
+[6.297s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/administrator/ros2arm_ws/build/arm_controller_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2arm_ws/build/arm_controller_pkg -- -j20 -l20[0m
+[6.298s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/administrator/ros2arm_ws/build/cycloidal_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2arm_ws/build/cycloidal_arm -- -j20 -l20[0m
+[6.298s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/administrator/ros2arm_ws/build/yolo_pred' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2arm_ws/build/yolo_pred -- -j20 -l20[0m
+[6.326s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/administrator/ros2arm_ws/build/arm_controller_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2arm_ws/build/arm_controller_pkg[0m
+[6.328s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/administrator/ros2arm_ws/build/yolo_pred_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2arm_ws/build/yolo_pred_nodes[0m
+[6.331s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/administrator/ros2arm_ws/build/ros2_arduino_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2arm_ws/build/ros2_arduino_bridge[0m
+[6.331s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/administrator/ros2arm_ws/build/arm_connect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2arm_ws/build/arm_connect[0m
+[6.333s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/administrator/ros2arm_ws/build/cycloidal_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2arm_ws/build/cycloidal_arm[0m
+[6.335s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/administrator/ros2arm_ws/build/yolo_pred': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2arm_ws/build/yolo_pred[0m
+[6.388s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(arm_controller_pkg)
+[6.389s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/administrator/ros2arm_ws/build/arm_controller_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2arm_ws/build/arm_controller_pkg[0m
+[6.932s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/arm_controller_pkg' for CMake module files
+[6.932s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/arm_controller_pkg' for CMake config files
+[6.932s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('arm_controller_pkg', 'cmake_prefix_path')
+[6.932s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/administrator/ros2arm_ws/install/arm_controller_pkg/share/arm_controller_pkg/hook/cmake_prefix_path.ps1'
+[6.977s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/administrator/ros2arm_ws/install/arm_controller_pkg/share/arm_controller_pkg/hook/cmake_prefix_path.dsv'
+[6.979s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/administrator/ros2arm_ws/install/arm_controller_pkg/share/arm_controller_pkg/hook/cmake_prefix_path.sh'
+[6.985s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/arm_controller_pkg/lib'
+[6.986s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/arm_controller_pkg/bin'
+[6.986s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/arm_controller_pkg/lib/pkgconfig/arm_controller_pkg.pc'
+[6.986s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/arm_controller_pkg/lib/python3.10/site-packages'
+[6.986s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/arm_controller_pkg/bin'
+[6.987s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/arm_controller_pkg/share/arm_controller_pkg/package.ps1'
+[6.994s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/administrator/ros2arm_ws/install/arm_controller_pkg/share/arm_controller_pkg/package.dsv'
+[7.010s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/arm_controller_pkg/share/arm_controller_pkg/package.sh'
+[7.023s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/arm_controller_pkg/share/arm_controller_pkg/package.bash'
+[7.040s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/arm_controller_pkg/share/arm_controller_pkg/package.zsh'
+[7.051s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/administrator/ros2arm_ws/install/arm_controller_pkg/share/colcon-core/packages/arm_controller_pkg)
+[7.053s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(arm_connect)
+[7.053s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/arm_connect' for CMake module files
+[7.053s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/arm_connect' for CMake config files
+[7.054s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/administrator/ros2arm_ws/build/arm_connect' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2arm_ws/build/arm_connect[0m
+[7.054s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('arm_connect', 'cmake_prefix_path')
+[7.055s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/administrator/ros2arm_ws/install/arm_connect/share/arm_connect/hook/cmake_prefix_path.ps1'
+[7.055s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/administrator/ros2arm_ws/install/arm_connect/share/arm_connect/hook/cmake_prefix_path.dsv'
+[7.055s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/administrator/ros2arm_ws/install/arm_connect/share/arm_connect/hook/cmake_prefix_path.sh'
+[7.056s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/arm_connect/bin'
+[7.056s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/arm_connect/lib/pkgconfig/arm_connect.pc'
+[7.056s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/arm_connect/lib/python3.10/site-packages'
+[7.056s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/arm_connect/bin'
+[7.056s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/arm_connect/share/arm_connect/package.ps1'
+[7.057s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/administrator/ros2arm_ws/install/arm_connect/share/arm_connect/package.dsv'
+[7.057s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/arm_connect/share/arm_connect/package.sh'
+[7.057s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/arm_connect/share/arm_connect/package.bash'
+[7.058s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/arm_connect/share/arm_connect/package.zsh'
+[7.058s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/administrator/ros2arm_ws/install/arm_connect/share/colcon-core/packages/arm_connect)
+[7.059s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(yolo_pred_nodes)
+[7.059s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/yolo_pred_nodes' for CMake module files
+[7.059s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/administrator/ros2arm_ws/build/yolo_pred_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2arm_ws/build/yolo_pred_nodes[0m
+[7.060s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/yolo_pred_nodes' for CMake config files
+[7.060s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('yolo_pred_nodes', 'cmake_prefix_path')
+[7.060s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/hook/cmake_prefix_path.ps1'
+[7.060s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/hook/cmake_prefix_path.dsv'
+[7.061s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/hook/cmake_prefix_path.sh'
+[7.061s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/yolo_pred_nodes/lib'
+[7.061s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/yolo_pred_nodes/bin'
+[7.061s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/yolo_pred_nodes/lib/pkgconfig/yolo_pred_nodes.pc'
+[7.061s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/yolo_pred_nodes/lib/python3.10/site-packages'
+[7.062s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/yolo_pred_nodes/bin'
+[7.062s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/package.ps1'
+[7.062s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/package.dsv'
+[7.063s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/package.sh'
+[7.063s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/package.bash'
+[7.063s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/package.zsh'
+[7.063s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/colcon-core/packages/yolo_pred_nodes)
+[7.064s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ros2_arduino_bridge)
+[7.064s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/ros2_arduino_bridge' for CMake module files
+[7.065s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/administrator/ros2arm_ws/build/ros2_arduino_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2arm_ws/build/ros2_arduino_bridge[0m
+[7.065s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/ros2_arduino_bridge' for CMake config files
+[7.066s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ros2_arduino_bridge', 'cmake_prefix_path')
+[7.066s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/hook/cmake_prefix_path.ps1'
+[7.067s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/hook/cmake_prefix_path.dsv'
+[7.067s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/hook/cmake_prefix_path.sh'
+[7.068s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/lib'
+[7.068s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/bin'
+[7.068s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/lib/pkgconfig/ros2_arduino_bridge.pc'
+[7.068s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/lib/python3.10/site-packages'
+[7.069s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/bin'
+[7.069s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/package.ps1'
+[7.070s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/package.dsv'
+[7.070s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/package.sh'
+[7.071s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/package.bash'
+[7.071s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/package.zsh'
+[7.072s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/colcon-core/packages/ros2_arduino_bridge)
+[7.073s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(yolo_pred)
+[7.073s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/yolo_pred' for CMake module files
+[7.074s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/administrator/ros2arm_ws/build/yolo_pred' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2arm_ws/build/yolo_pred[0m
+[7.150s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/yolo_pred' for CMake config files
+[7.259s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('yolo_pred', 'cmake_prefix_path')
+[7.259s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/hook/cmake_prefix_path.ps1'
+[7.259s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/hook/cmake_prefix_path.dsv'
+[7.260s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/hook/cmake_prefix_path.sh'
+[7.260s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/yolo_pred/lib'
+[7.260s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/yolo_pred/bin'
+[7.260s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/yolo_pred/lib/pkgconfig/yolo_pred.pc'
+[7.261s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/yolo_pred/lib/python3.10/site-packages'
+[7.261s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/yolo_pred/bin'
+[7.261s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/package.ps1'
+[7.261s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/package.dsv'
+[7.262s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/package.sh'
+[7.262s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/package.bash'
+[7.262s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/package.zsh'
+[7.263s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/administrator/ros2arm_ws/install/yolo_pred/share/colcon-core/packages/yolo_pred)
+[7.264s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(cycloidal_arm)
+[7.264s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/administrator/ros2arm_ws/build/cycloidal_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2arm_ws/build/cycloidal_arm[0m
+[7.264s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/cycloidal_arm' for CMake module files
+[7.265s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/cycloidal_arm' for CMake config files
+[7.278s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cycloidal_arm', 'cmake_prefix_path')
+[7.279s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/hook/cmake_prefix_path.ps1'
+[7.279s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/hook/cmake_prefix_path.dsv'
+[7.280s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/hook/cmake_prefix_path.sh'
+[7.281s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/cycloidal_arm/bin'
+[7.281s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/cycloidal_arm/lib/pkgconfig/cycloidal_arm.pc'
+[7.281s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/cycloidal_arm/lib/python3.10/site-packages'
+[7.281s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/cycloidal_arm/bin'
+[7.282s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/package.ps1'
+[7.282s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/package.dsv'
+[7.283s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/package.sh'
+[7.283s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/package.bash'
+[7.283s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/package.zsh'
+[7.283s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/administrator/ros2arm_ws/install/cycloidal_arm/share/colcon-core/packages/cycloidal_arm)
+[7.285s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(arm_controller_pkg)
+[7.286s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/arm_controller_pkg' for CMake module files
+[7.286s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/arm_controller_pkg' for CMake config files
+[7.286s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('arm_controller_pkg', 'cmake_prefix_path')
+[7.286s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/administrator/ros2arm_ws/install/arm_controller_pkg/share/arm_controller_pkg/hook/cmake_prefix_path.ps1'
+[7.287s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/administrator/ros2arm_ws/install/arm_controller_pkg/share/arm_controller_pkg/hook/cmake_prefix_path.dsv'
+[7.287s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/administrator/ros2arm_ws/install/arm_controller_pkg/share/arm_controller_pkg/hook/cmake_prefix_path.sh'
+[7.287s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/arm_controller_pkg/lib'
+[7.287s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/arm_controller_pkg/bin'
+[7.287s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/arm_controller_pkg/lib/pkgconfig/arm_controller_pkg.pc'
+[7.288s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/arm_controller_pkg/lib/python3.10/site-packages'
+[7.288s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/arm_controller_pkg/bin'
+[7.288s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/arm_controller_pkg/share/arm_controller_pkg/package.ps1'
+[7.288s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/administrator/ros2arm_ws/install/arm_controller_pkg/share/arm_controller_pkg/package.dsv'
+[7.289s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/arm_controller_pkg/share/arm_controller_pkg/package.sh'
+[7.289s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/arm_controller_pkg/share/arm_controller_pkg/package.bash'
+[7.289s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/arm_controller_pkg/share/arm_controller_pkg/package.zsh'
+[7.289s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/administrator/ros2arm_ws/install/arm_controller_pkg/share/colcon-core/packages/arm_controller_pkg)
+[7.290s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(arm_connect)
+[7.290s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/arm_connect' for CMake module files
+[7.290s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/arm_connect' for CMake config files
+[7.291s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('arm_connect', 'cmake_prefix_path')
+[7.291s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/administrator/ros2arm_ws/install/arm_connect/share/arm_connect/hook/cmake_prefix_path.ps1'
+[7.291s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/administrator/ros2arm_ws/install/arm_connect/share/arm_connect/hook/cmake_prefix_path.dsv'
+[7.291s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/administrator/ros2arm_ws/install/arm_connect/share/arm_connect/hook/cmake_prefix_path.sh'
+[7.292s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/arm_connect/bin'
+[7.292s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/arm_connect/lib/pkgconfig/arm_connect.pc'
+[7.292s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/arm_connect/lib/python3.10/site-packages'
+[7.292s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/arm_connect/bin'
+[7.292s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/arm_connect/share/arm_connect/package.ps1'
+[7.292s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/administrator/ros2arm_ws/install/arm_connect/share/arm_connect/package.dsv'
+[7.293s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/arm_connect/share/arm_connect/package.sh'
+[7.293s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/arm_connect/share/arm_connect/package.bash'
+[7.293s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/arm_connect/share/arm_connect/package.zsh'
+[7.293s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/administrator/ros2arm_ws/install/arm_connect/share/colcon-core/packages/arm_connect)
+[7.294s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(yolo_pred_nodes)
+[7.294s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/yolo_pred_nodes' for CMake module files
+[7.294s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/yolo_pred_nodes' for CMake config files
+[7.294s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('yolo_pred_nodes', 'cmake_prefix_path')
+[7.295s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/hook/cmake_prefix_path.ps1'
+[7.295s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/hook/cmake_prefix_path.dsv'
+[7.295s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/hook/cmake_prefix_path.sh'
+[7.295s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/yolo_pred_nodes/lib'
+[7.295s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/yolo_pred_nodes/bin'
+[7.295s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/yolo_pred_nodes/lib/pkgconfig/yolo_pred_nodes.pc'
+[7.295s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/yolo_pred_nodes/lib/python3.10/site-packages'
+[7.296s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/yolo_pred_nodes/bin'
+[7.296s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/package.ps1'
+[7.296s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/package.dsv'
+[7.296s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/package.sh'
+[7.297s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/package.bash'
+[7.297s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/yolo_pred_nodes/package.zsh'
+[7.297s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/administrator/ros2arm_ws/install/yolo_pred_nodes/share/colcon-core/packages/yolo_pred_nodes)
+[7.297s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ros2_arduino_bridge)
+[7.298s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/ros2_arduino_bridge' for CMake module files
+[7.298s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/ros2_arduino_bridge' for CMake config files
+[7.298s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ros2_arduino_bridge', 'cmake_prefix_path')
+[7.298s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/hook/cmake_prefix_path.ps1'
+[7.299s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/hook/cmake_prefix_path.dsv'
+[7.299s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/hook/cmake_prefix_path.sh'
+[7.299s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/lib'
+[7.299s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/bin'
+[7.299s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/lib/pkgconfig/ros2_arduino_bridge.pc'
+[7.299s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/lib/python3.10/site-packages'
+[7.299s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/bin'
+[7.300s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/package.ps1'
+[7.300s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/package.dsv'
+[7.300s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/package.sh'
+[7.300s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/package.bash'
+[7.301s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/ros2_arduino_bridge/package.zsh'
+[7.301s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/administrator/ros2arm_ws/install/ros2_arduino_bridge/share/colcon-core/packages/ros2_arduino_bridge)
+[7.301s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(yolo_pred)
+[7.301s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/yolo_pred' for CMake module files
+[7.302s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/yolo_pred' for CMake config files
+[7.302s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('yolo_pred', 'cmake_prefix_path')
+[7.302s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/hook/cmake_prefix_path.ps1'
+[7.302s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/hook/cmake_prefix_path.dsv'
+[7.302s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/hook/cmake_prefix_path.sh'
+[7.303s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/yolo_pred/lib'
+[7.303s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/yolo_pred/bin'
+[7.303s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/yolo_pred/lib/pkgconfig/yolo_pred.pc'
+[7.303s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/yolo_pred/lib/python3.10/site-packages'
+[7.303s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/yolo_pred/bin'
+[7.303s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/package.ps1'
+[7.304s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/package.dsv'
+[7.304s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/package.sh'
+[7.304s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/package.bash'
+[7.304s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/yolo_pred/share/yolo_pred/package.zsh'
+[7.304s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/administrator/ros2arm_ws/install/yolo_pred/share/colcon-core/packages/yolo_pred)
+[7.305s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(cycloidal_arm)
+[7.305s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/cycloidal_arm' for CMake module files
+[7.306s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/cycloidal_arm' for CMake config files
+[7.306s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cycloidal_arm', 'cmake_prefix_path')
+[7.306s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/hook/cmake_prefix_path.ps1'
+[7.306s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/hook/cmake_prefix_path.dsv'
+[7.306s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/hook/cmake_prefix_path.sh'
+[7.307s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/cycloidal_arm/bin'
+[7.307s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/cycloidal_arm/lib/pkgconfig/cycloidal_arm.pc'
+[7.307s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/cycloidal_arm/lib/python3.10/site-packages'
+[7.307s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/cycloidal_arm/bin'
+[7.307s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/package.ps1'
+[7.307s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/package.dsv'
+[7.308s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/package.sh'
+[7.308s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/package.bash'
+[7.308s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/cycloidal_arm/share/cycloidal_arm/package.zsh'
+[7.308s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/administrator/ros2arm_ws/install/cycloidal_arm/share/colcon-core/packages/cycloidal_arm)
+[7.308s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/administrator/ros2arm_ws/src/cycloidal_arm_moveit_config' with build type 'ament_cmake'
+[7.309s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/administrator/ros2arm_ws/src/cycloidal_arm_moveit_config'
+[7.309s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.309s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[7.443s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/administrator/ros2arm_ws/build/cycloidal_arm_moveit_config': CMAKE_PREFIX_PATH=/home/administrator/ros2arm_ws/install/cycloidal_arm:/home/administrator/ros2arm_ws/install/yolo_pred_nodes:/home/administrator/ros2arm_ws/install/yolo_pred:/home/administrator/ros2arm_ws/install/ros2_arduino_bridge:/home/administrator/ros2arm_ws/install/hello_moveit:/home/administrator/ros2arm_ws/install/final_moveit:/home/administrator/ros2arm_ws/install/cycloidal_arm_moveit_config:/home/administrator/ros2arm_ws/install/arm_controller_pkg:/home/administrator/ros2arm_ws/install/arm_connect:/home/administrator/uros_ws/install/micro_ros_setup:/home/administrator/uros_ws/install/micro_ros_agent:/home/administrator/uros_ws/install/micro_ros_msgs:/home/administrator/uros_ws/install/drive_base_msgs:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2arm_ws/build/cycloidal_arm_moveit_config -- -j20 -l20[0m
+[7.517s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/administrator/ros2arm_ws/build/cycloidal_arm_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/administrator/ros2arm_ws/install/cycloidal_arm:/home/administrator/ros2arm_ws/install/yolo_pred_nodes:/home/administrator/ros2arm_ws/install/yolo_pred:/home/administrator/ros2arm_ws/install/ros2_arduino_bridge:/home/administrator/ros2arm_ws/install/hello_moveit:/home/administrator/ros2arm_ws/install/final_moveit:/home/administrator/ros2arm_ws/install/cycloidal_arm_moveit_config:/home/administrator/ros2arm_ws/install/arm_controller_pkg:/home/administrator/ros2arm_ws/install/arm_connect:/home/administrator/uros_ws/install/micro_ros_setup:/home/administrator/uros_ws/install/micro_ros_agent:/home/administrator/uros_ws/install/micro_ros_msgs:/home/administrator/uros_ws/install/drive_base_msgs:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2arm_ws/build/cycloidal_arm_moveit_config -- -j20 -l20[0m
+[7.542s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/administrator/ros2arm_ws/build/cycloidal_arm_moveit_config': CMAKE_PREFIX_PATH=/home/administrator/ros2arm_ws/install/cycloidal_arm:/home/administrator/ros2arm_ws/install/yolo_pred_nodes:/home/administrator/ros2arm_ws/install/yolo_pred:/home/administrator/ros2arm_ws/install/ros2_arduino_bridge:/home/administrator/ros2arm_ws/install/hello_moveit:/home/administrator/ros2arm_ws/install/final_moveit:/home/administrator/ros2arm_ws/install/cycloidal_arm_moveit_config:/home/administrator/ros2arm_ws/install/arm_controller_pkg:/home/administrator/ros2arm_ws/install/arm_connect:/home/administrator/uros_ws/install/micro_ros_setup:/home/administrator/uros_ws/install/micro_ros_agent:/home/administrator/uros_ws/install/micro_ros_msgs:/home/administrator/uros_ws/install/drive_base_msgs:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2arm_ws/build/cycloidal_arm_moveit_config[0m
+[7.615s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(cycloidal_arm_moveit_config)
+[7.615s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/administrator/ros2arm_ws/build/cycloidal_arm_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/administrator/ros2arm_ws/install/cycloidal_arm:/home/administrator/ros2arm_ws/install/yolo_pred_nodes:/home/administrator/ros2arm_ws/install/yolo_pred:/home/administrator/ros2arm_ws/install/ros2_arduino_bridge:/home/administrator/ros2arm_ws/install/hello_moveit:/home/administrator/ros2arm_ws/install/final_moveit:/home/administrator/ros2arm_ws/install/cycloidal_arm_moveit_config:/home/administrator/ros2arm_ws/install/arm_controller_pkg:/home/administrator/ros2arm_ws/install/arm_connect:/home/administrator/uros_ws/install/micro_ros_setup:/home/administrator/uros_ws/install/micro_ros_agent:/home/administrator/uros_ws/install/micro_ros_msgs:/home/administrator/uros_ws/install/drive_base_msgs:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2arm_ws/build/cycloidal_arm_moveit_config[0m
+[7.615s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/cycloidal_arm_moveit_config' for CMake module files
+[7.617s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/cycloidal_arm_moveit_config' for CMake config files
+[7.632s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cycloidal_arm_moveit_config', 'cmake_prefix_path')
+[7.633s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/administrator/ros2arm_ws/install/cycloidal_arm_moveit_config/share/cycloidal_arm_moveit_config/hook/cmake_prefix_path.ps1'
+[7.633s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/administrator/ros2arm_ws/install/cycloidal_arm_moveit_config/share/cycloidal_arm_moveit_config/hook/cmake_prefix_path.dsv'
+[7.633s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/administrator/ros2arm_ws/install/cycloidal_arm_moveit_config/share/cycloidal_arm_moveit_config/hook/cmake_prefix_path.sh'
+[7.634s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/cycloidal_arm_moveit_config/bin'
+[7.634s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/cycloidal_arm_moveit_config/lib/pkgconfig/cycloidal_arm_moveit_config.pc'
+[7.634s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/cycloidal_arm_moveit_config/lib/python3.10/site-packages'
+[7.634s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/cycloidal_arm_moveit_config/bin'
+[7.635s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/cycloidal_arm_moveit_config/share/cycloidal_arm_moveit_config/package.ps1'
+[7.635s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/administrator/ros2arm_ws/install/cycloidal_arm_moveit_config/share/cycloidal_arm_moveit_config/package.dsv'
+[7.635s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/cycloidal_arm_moveit_config/share/cycloidal_arm_moveit_config/package.sh'
+[7.635s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/cycloidal_arm_moveit_config/share/cycloidal_arm_moveit_config/package.bash'
+[7.636s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/cycloidal_arm_moveit_config/share/cycloidal_arm_moveit_config/package.zsh'
+[7.636s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/administrator/ros2arm_ws/install/cycloidal_arm_moveit_config/share/colcon-core/packages/cycloidal_arm_moveit_config)
+[7.659s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(cycloidal_arm_moveit_config)
+[7.659s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/cycloidal_arm_moveit_config' for CMake module files
+[7.660s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/cycloidal_arm_moveit_config' for CMake config files
+[7.660s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cycloidal_arm_moveit_config', 'cmake_prefix_path')
+[7.661s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/administrator/ros2arm_ws/install/cycloidal_arm_moveit_config/share/cycloidal_arm_moveit_config/hook/cmake_prefix_path.ps1'
+[7.661s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/administrator/ros2arm_ws/install/cycloidal_arm_moveit_config/share/cycloidal_arm_moveit_config/hook/cmake_prefix_path.dsv'
+[7.661s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/administrator/ros2arm_ws/install/cycloidal_arm_moveit_config/share/cycloidal_arm_moveit_config/hook/cmake_prefix_path.sh'
+[7.662s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/cycloidal_arm_moveit_config/bin'
+[7.662s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/cycloidal_arm_moveit_config/lib/pkgconfig/cycloidal_arm_moveit_config.pc'
+[7.662s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/cycloidal_arm_moveit_config/lib/python3.10/site-packages'
+[7.662s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/cycloidal_arm_moveit_config/bin'
+[7.662s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/cycloidal_arm_moveit_config/share/cycloidal_arm_moveit_config/package.ps1'
+[7.663s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/administrator/ros2arm_ws/install/cycloidal_arm_moveit_config/share/cycloidal_arm_moveit_config/package.dsv'
+[7.663s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/cycloidal_arm_moveit_config/share/cycloidal_arm_moveit_config/package.sh'
+[7.664s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/cycloidal_arm_moveit_config/share/cycloidal_arm_moveit_config/package.bash'
+[7.664s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/cycloidal_arm_moveit_config/share/cycloidal_arm_moveit_config/package.zsh'
+[7.664s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/administrator/ros2arm_ws/install/cycloidal_arm_moveit_config/share/colcon-core/packages/cycloidal_arm_moveit_config)
+[16.777s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/administrator/ros2arm_ws/build/final_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2arm_ws/build/final_moveit -- -j20 -l20[0m
+[16.779s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/administrator/ros2arm_ws/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2arm_ws/build/hello_moveit -- -j20 -l20[0m
+[16.810s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/administrator/ros2arm_ws/build/final_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2arm_ws/build/final_moveit[0m
+[16.812s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/administrator/ros2arm_ws/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2arm_ws/build/hello_moveit[0m
+[16.909s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(hello_moveit)
+[16.909s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/hello_moveit' for CMake module files
+[16.909s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/administrator/ros2arm_ws/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2arm_ws/build/hello_moveit[0m
+[16.909s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/hello_moveit' for CMake config files
+[16.910s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('hello_moveit', 'cmake_prefix_path')
+[16.910s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/administrator/ros2arm_ws/install/hello_moveit/share/hello_moveit/hook/cmake_prefix_path.ps1'
+[16.910s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/administrator/ros2arm_ws/install/hello_moveit/share/hello_moveit/hook/cmake_prefix_path.dsv'
+[16.910s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/administrator/ros2arm_ws/install/hello_moveit/share/hello_moveit/hook/cmake_prefix_path.sh'
+[16.911s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/hello_moveit/lib'
+[16.911s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/hello_moveit/bin'
+[16.911s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/hello_moveit/lib/pkgconfig/hello_moveit.pc'
+[16.911s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/hello_moveit/lib/python3.10/site-packages'
+[16.911s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/hello_moveit/bin'
+[16.911s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/hello_moveit/share/hello_moveit/package.ps1'
+[16.912s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/administrator/ros2arm_ws/install/hello_moveit/share/hello_moveit/package.dsv'
+[16.912s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/hello_moveit/share/hello_moveit/package.sh'
+[16.912s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/hello_moveit/share/hello_moveit/package.bash'
+[16.912s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/hello_moveit/share/hello_moveit/package.zsh'
+[16.912s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/administrator/ros2arm_ws/install/hello_moveit/share/colcon-core/packages/hello_moveit)
+[16.927s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(final_moveit)
+[16.927s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/final_moveit' for CMake module files
+[16.927s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/administrator/ros2arm_ws/build/final_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2arm_ws/build/final_moveit[0m
+[16.927s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/final_moveit' for CMake config files
+[16.928s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('final_moveit', 'cmake_prefix_path')
+[16.928s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/administrator/ros2arm_ws/install/final_moveit/share/final_moveit/hook/cmake_prefix_path.ps1'
+[16.928s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/administrator/ros2arm_ws/install/final_moveit/share/final_moveit/hook/cmake_prefix_path.dsv'
+[16.928s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/administrator/ros2arm_ws/install/final_moveit/share/final_moveit/hook/cmake_prefix_path.sh'
+[16.929s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/final_moveit/lib'
+[16.929s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/final_moveit/bin'
+[16.929s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/final_moveit/lib/pkgconfig/final_moveit.pc'
+[16.929s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/final_moveit/lib/python3.10/site-packages'
+[16.929s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/final_moveit/bin'
+[16.929s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/final_moveit/share/final_moveit/package.ps1'
+[16.929s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/administrator/ros2arm_ws/install/final_moveit/share/final_moveit/package.dsv'
+[16.930s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/final_moveit/share/final_moveit/package.sh'
+[16.930s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/final_moveit/share/final_moveit/package.bash'
+[16.930s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/final_moveit/share/final_moveit/package.zsh'
+[16.930s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/administrator/ros2arm_ws/install/final_moveit/share/colcon-core/packages/final_moveit)
+[16.931s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(hello_moveit)
+[16.931s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/hello_moveit' for CMake module files
+[16.931s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/hello_moveit' for CMake config files
+[16.932s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('hello_moveit', 'cmake_prefix_path')
+[16.932s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/administrator/ros2arm_ws/install/hello_moveit/share/hello_moveit/hook/cmake_prefix_path.ps1'
+[16.932s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/administrator/ros2arm_ws/install/hello_moveit/share/hello_moveit/hook/cmake_prefix_path.dsv'
+[16.932s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/administrator/ros2arm_ws/install/hello_moveit/share/hello_moveit/hook/cmake_prefix_path.sh'
+[16.932s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/hello_moveit/lib'
+[16.932s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/hello_moveit/bin'
+[16.933s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/hello_moveit/lib/pkgconfig/hello_moveit.pc'
+[16.933s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/hello_moveit/lib/python3.10/site-packages'
+[16.933s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/hello_moveit/bin'
+[16.933s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/hello_moveit/share/hello_moveit/package.ps1'
+[16.933s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/administrator/ros2arm_ws/install/hello_moveit/share/hello_moveit/package.dsv'
+[16.933s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/hello_moveit/share/hello_moveit/package.sh'
+[16.934s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/hello_moveit/share/hello_moveit/package.bash'
+[16.934s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/hello_moveit/share/hello_moveit/package.zsh'
+[16.934s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/administrator/ros2arm_ws/install/hello_moveit/share/colcon-core/packages/hello_moveit)
+[16.950s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(final_moveit)
+[16.951s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/final_moveit' for CMake module files
+[16.951s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/final_moveit' for CMake config files
+[16.951s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('final_moveit', 'cmake_prefix_path')
+[16.951s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/administrator/ros2arm_ws/install/final_moveit/share/final_moveit/hook/cmake_prefix_path.ps1'
+[16.952s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/administrator/ros2arm_ws/install/final_moveit/share/final_moveit/hook/cmake_prefix_path.dsv'
+[16.952s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/administrator/ros2arm_ws/install/final_moveit/share/final_moveit/hook/cmake_prefix_path.sh'
+[16.953s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/final_moveit/lib'
+[16.953s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/final_moveit/bin'
+[16.953s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/final_moveit/lib/pkgconfig/final_moveit.pc'
+[16.953s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/final_moveit/lib/python3.10/site-packages'
+[16.953s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/administrator/ros2arm_ws/install/final_moveit/bin'
+[16.954s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/final_moveit/share/final_moveit/package.ps1'
+[16.954s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/administrator/ros2arm_ws/install/final_moveit/share/final_moveit/package.dsv'
+[16.954s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/final_moveit/share/final_moveit/package.sh'
+[16.954s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/final_moveit/share/final_moveit/package.bash'
+[16.955s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/administrator/ros2arm_ws/install/final_moveit/share/final_moveit/package.zsh'
+[16.955s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/administrator/ros2arm_ws/install/final_moveit/share/colcon-core/packages/final_moveit)
+[16.956s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[16.956s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[16.956s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[16.956s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[16.987s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.987s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.987s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[16.998s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[16.998s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/administrator/ros2arm_ws/install/local_setup.ps1'
+[17.017s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/administrator/ros2arm_ws/install/_local_setup_util_ps1.py'
+[17.039s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/administrator/ros2arm_ws/install/setup.ps1'
+[17.041s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/administrator/ros2arm_ws/install/local_setup.sh'
+[17.042s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/administrator/ros2arm_ws/install/_local_setup_util_sh.py'
+[17.043s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/administrator/ros2arm_ws/install/setup.sh'
+[17.045s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/administrator/ros2arm_ws/install/local_setup.bash'
+[17.054s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/administrator/ros2arm_ws/install/setup.bash'
+[17.056s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/administrator/ros2arm_ws/install/local_setup.zsh'
+[17.060s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/administrator/ros2arm_ws/install/setup.zsh'

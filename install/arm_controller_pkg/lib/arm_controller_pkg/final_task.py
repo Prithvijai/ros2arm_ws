@@ -38,7 +38,7 @@ def shirt_conf_callback(msg):
 def fabric_conf_callback(msg):
     global fabric_conf
     shirt_conf = int(msg.data)
-    print(f'Current fabric conf: "{shirt_conf}"')
+    print(f'Current fabric conf: "{fabric_conf}"')
 
 
 def main(args=None):
@@ -47,9 +47,9 @@ def main(args=None):
     shirt_conf = 0
     fabric_conf = 0
     rest = '0,0,0,0,0'
-    Fready = '-30,-20,-100,180,90'
-    Fzoom = '-30,20,-70,180,90'
-    scans = ['-40,20,-70,180,90', '-30,20,-70,180,90', '-20,20,-70,180,90']
+    Fready = '-30,-15,-100,180,90'
+    Fzoom = '-30,15,-70,180,90'
+    scans = ['-50,15,-70,180,90', '-10,15,-70,180,90']  
 
     rclpy.init(args=args)
     node = Node('hardware_robot_controller')
@@ -67,7 +67,7 @@ def main(args=None):
             break
         else:
             publish_command(publisher, desired_state)
-        time.sleep(1)  # Adjust delay as needed
+        time.sleep(0.2)  # Adjust delay as needed
 
     repeat = 'y'
     while repeat.lower() == 'y' and rclpy.ok():
@@ -80,7 +80,7 @@ def main(args=None):
                 break
             else:
                 publish_command(publisher, desired_state)
-            time.sleep(1)
+            time.sleep(0.2)
         
         print("The Robot is in Ready State. Show the Shirt Patch to the robot.")
         while rclpy.ok():
@@ -92,7 +92,7 @@ def main(args=None):
             else:
                 pass
                 # publish_command(publisher, desired_state)
-            time.sleep(1)
+            time.sleep(0.2)
         
         # n = input("Press 1 to continue to zoom.")
 
@@ -107,14 +107,14 @@ def main(args=None):
                     break
                 else:
                     publish_command(publisher, desired_state)
-                time.sleep(1)
+                time.sleep(0.2)
             
             print("The Robot is zoomed in. Scanning will commence.")
             for scan in scans:
                 desired_state = scan
                 while rclpy.ok():
                     rclpy.spin_once(node, timeout_sec=0.1)
-                    if fabric_conf >= 50:
+                    if fabric_conf >= 30:
                         print(f'There is a defect in fabric!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
                         break
                         
@@ -123,7 +123,7 @@ def main(args=None):
                         break
                     else:
                         publish_command(publisher, desired_state)
-                    time.sleep(1)
+                    time.sleep(0.2)
 
         # Optionally, move back to First Ready position after scanning
         desired_state = Fready
@@ -134,7 +134,7 @@ def main(args=None):
                 break
             else:
                 publish_command(publisher, desired_state)
-            time.sleep(1)
+            time.sleep(0.2)
             
         repeat = input("Repeat the sequence? (y/n): ")
     
@@ -146,7 +146,7 @@ def main(args=None):
             break
         else:
             publish_command(publisher, desired_state)
-        time.sleep(1)  # Adjust delay as needed
+        time.sleep(0.2)  # Adjust delay as needed
 
     node.destroy_node()
     rclpy.shutdown()

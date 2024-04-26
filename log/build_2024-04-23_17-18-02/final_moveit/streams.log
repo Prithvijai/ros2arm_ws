@@ -1,0 +1,22 @@
+[0.033s] Invoking command in '/home/administrator/ros2arm_ws/build/final_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2arm_ws/build/final_moveit -- -j20 -l20
+[0.096s] [100%] Built target final_moveit
+[0.129s] Invoked command in '/home/administrator/ros2arm_ws/build/final_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2arm_ws/build/final_moveit -- -j20 -l20
+[0.160s] Invoking command in '/home/administrator/ros2arm_ws/build/final_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2arm_ws/build/final_moveit
+[0.170s] -- Install configuration: ""
+[0.170s] -- Up-to-date: /home/administrator/ros2arm_ws/install/final_moveit/lib/final_moveit/final_moveit
+[0.170s] -- Up-to-date: /home/administrator/ros2arm_ws/install/final_moveit/share/ament_index/resource_index/package_run_dependencies/final_moveit
+[0.171s] -- Up-to-date: /home/administrator/ros2arm_ws/install/final_moveit/share/ament_index/resource_index/parent_prefix_path/final_moveit
+[0.171s] -- Up-to-date: /home/administrator/ros2arm_ws/install/final_moveit/share/final_moveit/environment/ament_prefix_path.sh
+[0.171s] -- Up-to-date: /home/administrator/ros2arm_ws/install/final_moveit/share/final_moveit/environment/ament_prefix_path.dsv
+[0.172s] -- Up-to-date: /home/administrator/ros2arm_ws/install/final_moveit/share/final_moveit/environment/path.sh
+[0.172s] -- Up-to-date: /home/administrator/ros2arm_ws/install/final_moveit/share/final_moveit/environment/path.dsv
+[0.172s] -- Up-to-date: /home/administrator/ros2arm_ws/install/final_moveit/share/final_moveit/local_setup.bash
+[0.172s] -- Up-to-date: /home/administrator/ros2arm_ws/install/final_moveit/share/final_moveit/local_setup.sh
+[0.172s] -- Up-to-date: /home/administrator/ros2arm_ws/install/final_moveit/share/final_moveit/local_setup.zsh
+[0.172s] -- Up-to-date: /home/administrator/ros2arm_ws/install/final_moveit/share/final_moveit/local_setup.dsv
+[0.172s] -- Installing: /home/administrator/ros2arm_ws/install/final_moveit/share/final_moveit/package.dsv
+[0.173s] -- Up-to-date: /home/administrator/ros2arm_ws/install/final_moveit/share/ament_index/resource_index/packages/final_moveit
+[0.173s] -- Up-to-date: /home/administrator/ros2arm_ws/install/final_moveit/share/final_moveit/cmake/final_moveitConfig.cmake
+[0.173s] -- Up-to-date: /home/administrator/ros2arm_ws/install/final_moveit/share/final_moveit/cmake/final_moveitConfig-version.cmake
+[0.173s] -- Up-to-date: /home/administrator/ros2arm_ws/install/final_moveit/share/final_moveit/package.xml
+[0.203s] Invoked command in '/home/administrator/ros2arm_ws/build/final_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2arm_ws/build/final_moveit
